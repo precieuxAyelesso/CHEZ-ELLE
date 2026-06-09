@@ -4,7 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ETS CHEZ ELLE - Restauration, Pâtisserie fine, Boulangerie artisanale, Traiteur et École de formation à Cotonou, Porto-Novo et partout au Bénin. L'excellence du goût béninois.">
+    <meta name="keywords" content="boulangerie, pâtisserie, restauration, traiteur, école de formation, bénin, cotonou, porto-novo, abomey-calavi, gâteaux, pains">
+    <meta name="author" content="ETS CHEZ ELLE">
+    <link rel="canonical" href="https://etschezelle.com/">
+    
+    <!-- Theme Color for browsers -->
+    <meta name="theme-color" content="#e67e22">
+
+    <!-- Favicon & Manifest -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://etschezelle.com/">
+    <meta property="og:title" content="ETS CHEZ ELLE | L'Excellence du Goût au Bénin">
+    <meta property="og:description" content="Restauration, Pâtisserie fine, Boulangerie artisanale, Traiteur et École de formation à Cotonou et partout au Bénin. L'excellence du goût béninois.">
+    <meta property="og:image" content="https://etschezelle.com/patisserie.jpeg">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="ETS CHEZ ELLE">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://etschezelle.com/">
+    <meta property="twitter:title" content="ETS CHEZ ELLE | L'Excellence du Goût au Bénin">
+    <meta property="twitter:description" content="Restauration, Pâtisserie fine, Boulangerie artisanale, Traiteur et École de formation à Cotonou et partout au Bénin. L'excellence du goût béninois.">
+    <meta property="twitter:image" content="https://etschezelle.com/patisserie.jpeg">
+
     <title>ETS CHEZ ELLE | L'Excellence du Goût au Bénin</title>
+
+    <!-- Structured Data (JSON-LD) - AI & Search Engine Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Bakery",
+          "@id": "https://etschezelle.com/#bakery",
+          "name": "ETS CHEZ ELLE",
+          "description": "Boulangerie artisanale et pâtisserie fine de référence au Bénin. Pains frais, viennoiseries et gâteaux sur mesure.",
+          "url": "https://etschezelle.com",
+          "telephone": "+2290161670843",
+          "priceRange": "$$",
+          "image": "https://etschezelle.com/boulangerie.jpeg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avotrou",
+            "addressLocality": "Cotonou",
+            "addressCountry": "BJ"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "6.3703",
+            "longitude": "2.4485"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday"
+            ],
+            "opens": "07:00",
+            "closes": "22:00"
+          }
+        },
+        {
+          "@type": "Restaurant",
+          "@id": "https://etschezelle.com/#restaurant",
+          "name": "ETS CHEZ ELLE - Restauration & Traiteur",
+          "description": "Restauration raffinée et service traiteur haut de gamme pour tous vos événements au Bénin.",
+          "url": "https://etschezelle.com",
+          "telephone": "+2290161670843",
+          "priceRange": "$$",
+          "image": "https://etschezelle.com/restauration.jpeg",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avotrou",
+            "addressLocality": "Cotonou",
+            "addressCountry": "BJ"
+          }
+        },
+        {
+          "@type": "EducationalOrganization",
+          "@id": "https://etschezelle.com/#school",
+          "name": "École de Formation ETS CHEZ ELLE",
+          "description": "Centre de formation professionnelle certifiant en boulangerie artisanale, pâtisserie fine et cuisine.",
+          "url": "https://etschezelle.com",
+          "telephone": "+2290161670843",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avotrou",
+            "addressLocality": "Cotonou",
+            "addressCountry": "BJ"
+          }
+        }
+      ]
+    }
+    </script>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -216,7 +318,7 @@
                 
                 <div class="md:col-span-5">
                     <div class="bg-white rounded-3xl overflow-hidden shadow-2xl">
-                        <img src="https://picsum.photos/id/292/800/600" alt="Intérieur ETS CHEZ ELLE" class="w-full h-auto">
+                        <img src="https://picsum.photos/id/292/800/600" alt="Intérieur de la boutique ETS CHEZ ELLE à Cotonou, Bénin" class="w-full h-auto">
                         <div class="p-10">
                             <p class="italic text-gray-600 text-lg">"Chaque création est une signature de notre engagement pour l’excellence."</p>
                             <div class="mt-6 flex items-center gap-4">
@@ -245,7 +347,7 @@
                 <!-- Carte 1 -->
                 <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl group">
                     <div class="h-72 overflow-hidden">
-                        <img src="boulangerie.jpeg" alt="Boulangerie" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <img src="boulangerie.jpeg" alt="Boulangerie Artisanale ETS CHEZ ELLE - Pains artisanaux et viennoiseries fraîches à Cotonou" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     </div>
                     <div class="p-9">
                         <h3 class="text-2xl font-semibold mb-3">Boulangerie Artisanale</h3>
@@ -259,7 +361,7 @@
                 <!-- Carte 2 -->
                 <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl group">
                     <div class="h-72 overflow-hidden">
-                        <img src="patisserie.jpeg" alt="Pâtisserie" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <img src="patisserie.jpeg" alt="Pâtisserie Fine ETS CHEZ ELLE - Gâteaux personnalisés et entremets créatifs au Bénin" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     </div>
                     <div class="p-9">
                         <h3 class="text-2xl font-semibold mb-3">Pâtisserie Fine</h3>
@@ -273,7 +375,7 @@
                 <!-- Carte 3 -->
                 <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl group">
                     <div class="h-72 overflow-hidden">
-                        <img src="restauration.jpeg" alt="Traiteur" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <img src="restauration.jpeg" alt="Service Traiteur & Restauration ETS CHEZ ELLE - Plats raffinés et buffets événementiels" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     </div>
                     <div class="p-9">
                         <h3 class="text-2xl font-semibold mb-3">Restauration & Traiteur</h3>
@@ -287,7 +389,7 @@
                 <!-- Carte 4 -->
                 <div class="card-hover bg-white rounded-3xl overflow-hidden shadow-xl group">
                     <div class="h-72 overflow-hidden">
-                        <img src="services (2).jpeg" alt="Service complet" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <img src="services (2).jpeg" alt="Service complet d'organisation de réceptions et livraison de buffet avec personnel" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     </div>
                     <div class="p-9">
                         <h3 class="text-2xl font-semibold mb-3">Service Complet</h3>
