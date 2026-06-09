@@ -1,0 +1,28 @@
+# robots.txt for ETS CHEZ ELLE
+User-agent: *
+Allow: /
+
+# Explicitly allow AI crawlers to index content for search and answers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap location
+Sitemap: https://etschezelle.com/sitemap.xml
