@@ -199,15 +199,15 @@
 
     <!-- NAVBAR -->
     <nav class="bg-white border-b shadow-sm sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
+        <div class="max-w-7xl mx-auto px-6 md:px-8 py-4 md:py-5 flex items-center justify-between">
             <!-- Logo -->
-            <div class="flex items-center gap-4">
-                <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center text-white text-3xl shadow-md">
+            <div class="flex items-center gap-3 md:gap-4">
+                <div class="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center text-white text-2xl md:text-3xl shadow-md">
                     🥐
                 </div>
                 <div>
-                    <h1 class="heading-font text-2xl font-bold tracking-tight text-gray-900">ETS CHEZ ELLE</h1>
-                    <p class="text-orange-600 text-sm font-medium -mt-0.5 tracking-wider">Saveurs d'exception</p>
+                    <h1 class="heading-font text-xl md:text-2xl font-bold tracking-tight text-gray-900">ETS CHEZ ELLE</h1>
+                    <p class="text-orange-600 text-xs md:text-sm font-medium -mt-0.5 tracking-wider">Saveurs d'exception</p>
                 </div>
             </div>
 
@@ -221,9 +221,9 @@
                 <a href="#contact" class="nav-link text-gray-700 hover:text-orange-600">Contact</a>
             </div>
 
-            <div class="flex items-center gap-5">
+            <div class="flex items-center gap-4 md:gap-5">
                 <a href="tel:+2290161670843" 
-                   class="hidden lg:flex items-center gap-2.5 px-6 py-3 border-2 border-orange-600 text-orange-600 rounded-full text-base font-semibold hover:bg-orange-600 hover:text-white transition-all">
+                   class="hidden lg:flex items-center gap-2 md:gap-2.5 px-5 md:px-6 py-2 md:py-3 border-2 border-orange-600 text-orange-600 rounded-full text-sm md:text-base font-semibold hover:bg-orange-600 hover:text-white transition-all">
                     <i class="fa-solid fa-phone"></i>
                     <span>+229 01 61 67 08 43</span>
                 </a>
@@ -231,70 +231,70 @@
                 <!-- WhatsApp -->
                 <a href="https://wa.me/2290161670843?text=Bonjour%20ETS%20CHEZ%20ELLE%2C%20je%20souhaite%20plus%20d%27informations" 
                    target="_blank"
-                   class="flex items-center justify-center w-12 h-12 bg-green-600 text-white rounded-xl hover:scale-110 shadow-md transition-all whatsapp-float">
-                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                   class="flex items-center justify-center w-10 h-10 md:w-12 md:h-12 bg-green-600 text-white rounded-xl hover:scale-110 shadow-md transition-all whatsapp-float">
+                    <i class="fa-brands fa-whatsapp text-xl md:text-2xl"></i>
                 </a>
 
                 <!-- Mobile menu -->
-                <button onclick="toggleMobileMenu()" class="md:hidden text-3xl text-gray-700">
+                <button onclick="toggleMobileMenu()" class="md:hidden text-2xl text-gray-700">
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobileMenu" class="hidden md:hidden bg-white border-t px-8 py-8">
-            <div class="flex flex-col gap-5 text-base font-semibold text-gray-700">
-                <a href="#accueil" onclick="toggleMobileMenu()" class="py-2">Accueil</a>
-                <a href="#apropos" onclick="toggleMobileMenu()" class="py-2">À propos</a>
-                <a href="#services" onclick="toggleMobileMenu()" class="py-2">Nos Services</a>
-                <a href="#formations" onclick="toggleMobileMenu()" class="py-2">Formations</a>
-                <a href="#boutiques" onclick="toggleMobileMenu()" class="py-2">Boutiques</a>
-                <a href="#contact" onclick="toggleMobileMenu()" class="py-2">Contact</a>
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-t px-6 py-6">
+            <div class="flex flex-col gap-4 text-sm font-semibold text-gray-700">
+                <a href="#accueil" onclick="toggleMobileMenu()" class="py-1.5">Accueil</a>
+                <a href="#apropos" onclick="toggleMobileMenu()" class="py-1.5">À propos</a>
+                <a href="#services" onclick="toggleMobileMenu()" class="py-1.5">Nos Services</a>
+                <a href="#formations" onclick="toggleMobileMenu()" class="py-1.5">Formations</a>
+                <a href="#boutiques" onclick="toggleMobileMenu()" class="py-1.5">Boutiques</a>
+                <a href="#contact" onclick="toggleMobileMenu()" class="py-1.5">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- HERO -->
     <section id="accueil" class="hero-bg h-screen flex items-center text-white">
-        <div class="max-w-7xl mx-auto px-8">
-            <div class="max-w-3xl">
-                <span class="inline-block px-5 py-2 bg-white/20 backdrop-blur-md text-white text-sm font-semibold rounded-full mb-6">
+        <div class="max-w-7xl mx-auto px-6 md:px-8">
+            <div class="max-w-2xl md:max-w-3xl">
+                <span class="inline-block px-4 md:px-5 py-1.5 md:py-2 bg-white/20 backdrop-blur-md text-white text-xs md:text-sm font-semibold rounded-full mb-4 md:mb-6">
                     L'excellence culinaire béninoise
                 </span>
                 
-                <h1 class="heading-font text-5xl md:text-6xl font-bold leading-tight tracking-tight">
+                <h1 class="heading-font text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
                     Des saveurs qui marquent<br>les esprits
                 </h1>
                 
-                <p class="mt-6 text-xl md:text-2xl text-white/90 max-w-2xl">
+                <p class="mt-4 md:mt-6 text-base md:text-xl lg:text-2xl text-white/90 max-w-lg md:max-w-2xl">
                     Restauration • Pâtisserie fine • Boulangerie artisanale • Traiteur d'exception • École de formation
                 </p>
                 
-                <div class="flex flex-wrap gap-5 mt-10">
+                <div class="flex flex-wrap gap-4 md:gap-5 mt-8 md:mt-10">
                     <a href="#contact" 
-                       class="flex-1 md:flex-none bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-2xl text-lg font-semibold flex items-center justify-center gap-2.5 shadow-lg transition-all">
+                       class="flex-1 md:flex-none bg-orange-600 hover:bg-orange-700 text-white px-6 md:px-8 py-3.5 md:py-4 rounded-2xl text-base md:text-lg font-semibold flex items-center justify-center gap-2 md:gap-2.5 shadow-lg transition-all">
                         <i class="fa-solid fa-basket-shopping"></i>
                         Passer commande
                     </a>
                     
                     <a href="#formations" 
-                       class="flex-1 md:flex-none border-2 border-white hover:bg-white hover:text-gray-900 text-white px-8 py-4 rounded-2xl text-lg font-semibold flex items-center justify-center gap-2.5 transition-all">
+                       class="flex-1 md:flex-none border-2 border-white hover:bg-white hover:text-gray-900 text-white px-6 md:px-8 py-3.5 md:py-4 rounded-2xl text-base md:text-lg font-semibold flex items-center justify-center gap-2 md:gap-2.5 transition-all">
                         <i class="fa-solid fa-graduation-cap"></i>
                         Découvrir nos formations
                     </a>
                 </div>
                 
-                <div class="mt-12 flex items-center gap-8 text-sm">
-                    <div class="flex items-center gap-3">
+                <div class="mt-10 md:mt-12 flex items-center gap-6 md:gap-8 text-xs md:text-sm">
+                    <div class="flex items-center gap-2 md:gap-3">
                         <div class="flex -space-x-3">
-                            <div class="w-9 h-9 bg-white rounded-xl flex items-center justify-center text-lg shadow">🥐</div>
-                            <div class="w-9 h-9 bg-white rounded-xl flex items-center justify-center text-lg shadow">🍰</div>
+                            <div class="w-7 h-7 md:w-9 md:h-9 bg-white rounded-xl flex items-center justify-center text-sm md:text-lg shadow">🥐</div>
+                            <div class="w-7 h-7 md:w-9 md:h-9 bg-white rounded-xl flex items-center justify-center text-sm md:text-lg shadow">🍰</div>
                         </div>
                     </div>
                     <div>
-                        <p class="font-semibold text-base">Livraison rapide partout au Bénin</p>
-                        <p class="text-white/70 text-sm">Cotonou • Porto-Novo • Abomey-Calavi et plus</p>
+                        <p class="font-semibold text-sm md:text-base">Livraison rapide partout au Bénin</p>
+                        <p class="text-white/70 text-xs md:text-sm">Cotonou • Porto-Novo • Abomey-Calavi et plus</p>
                     </div>
                 </div>
             </div>
@@ -302,15 +302,15 @@
     </section>
 
     <!-- À PROPOS -->
-    <section id="apropos" class="py-24 bg-orange-50">
-        <div class="max-w-7xl mx-auto px-8">
-            <div class="grid md:grid-cols-12 gap-12 items-center">
+    <section id="apropos" class="py-16 md:py-24 bg-orange-50">
+        <div class="max-w-7xl mx-auto px-6 md:px-8">
+            <div class="grid md:grid-cols-12 gap-10 md:gap-12 items-center">
                 <div class="md:col-span-7">
-                    <span class="uppercase tracking-widest text-orange-600 font-semibold text-sm">Depuis plusieurs années</span>
-                    <h2 class="heading-font text-4xl md:text-5xl font-bold text-gray-900 mt-4 leading-tight">
+                    <span class="uppercase tracking-widest text-orange-600 font-semibold text-xs md:text-sm">Depuis plusieurs années</span>
+                    <h2 class="heading-font text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mt-3 md:mt-4 leading-tight">
                         Le goût est une affaire de passion et de précision
                     </h2>
-                    <div class="mt-8 space-y-5 text-lg text-gray-600">
+                    <div class="mt-6 md:mt-8 space-y-4 md:space-y-5 text-base md:text-lg text-gray-600">
                         <p>ETS CHEZ ELLE allie tradition béninoise et techniques modernes pour vous offrir des produits d'exception : pains artisanaux, pâtisseries fines, restauration raffinée et services traiteur haut de gamme.</p>
                         <p>Nous formons également la nouvelle génération de professionnels à travers nos programmes certifiants en pâtisserie, boulangerie et cuisine.</p>
                     </div>
@@ -319,13 +319,13 @@
                 <div class="md:col-span-5">
                     <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
                         <img src="https://picsum.photos/id/292/800/600" alt="Intérieur de la boutique ETS CHEZ ELLE à Cotonou, Bénin" class="w-full h-auto">
-                        <div class="p-8">
-                            <p class="italic text-gray-600 text-lg">"Chaque création est une signature de notre engagement pour l'excellence."</p>
-                            <div class="mt-6 flex items-center gap-4">
-                                <div class="w-12 h-12 bg-orange-100 rounded-xl"></div>
+                        <div class="p-6 md:p-8">
+                            <p class="italic text-gray-600 text-base md:text-lg">"Chaque création est une signature de notre engagement pour l'excellence."</p>
+                            <div class="mt-4 md:mt-6 flex items-center gap-3 md:gap-4">
+                                <div class="w-10 h-10 md:w-12 md:h-12 bg-orange-100 rounded-xl"></div>
                                 <div>
-                                    <p class="font-semibold text-gray-800 text-base">L'équipe Chez Elle</p>
-                                    <p class="text-sm text-orange-600">Cotonou, Bénin</p>
+                                    <p class="font-semibold text-gray-800 text-sm md:text-base">L'équipe Chez Elle</p>
+                                    <p class="text-xs md:text-sm text-orange-600">Cotonou, Bénin</p>
                                 </div>
                             </div>
                         </div>
@@ -336,66 +336,66 @@
     </section>
 
     <!-- SERVICES -->
-    <section id="services" class="py-24">
-        <div class="max-w-7xl mx-auto px-8">
-            <div class="text-center mb-14">
-                <span class="text-orange-600 font-semibold text-base">NOS EXPERTISES</span>
-                <h2 class="heading-font text-4xl font-bold text-gray-900 mt-3">Des services d'exception</h2>
+    <section id="services" class="py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-6 md:px-8">
+            <div class="text-center mb-10 md:mb-14">
+                <span class="text-orange-600 font-semibold text-sm md:text-base">NOS EXPERTISES</span>
+                <h2 class="heading-font text-3xl md:text-4xl font-bold text-gray-900 mt-2 md:mt-3">Des services d'exception</h2>
             </div>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
                 <!-- Carte 1 -->
                 <div class="card-hover bg-white rounded-2xl overflow-hidden shadow-md group">
-                    <div class="h-64 overflow-hidden">
+                    <div class="h-48 md:h-64 overflow-hidden">
                         <img src="boulangerie.jpeg" alt="Boulangerie Artisanale ETS CHEZ ELLE - Pains artisanaux et viennoiseries fraîches à Cotonou" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     </div>
-                    <div class="p-7">
-                        <h3 class="text-xl font-bold mb-3">Boulangerie Artisanale</h3>
-                        <p class="text-base text-gray-600">Pains frais, baguettes croustillantes, viennoiseries et spécialités locales chaque matin.</p>
-                        <a href="https://wa.me/2290161670843?text=Je%20souhaite%20commander%20du%20pain" class="mt-5 text-base text-orange-600 font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all">
-                            Commander maintenant <span class="text-lg">→</span>
+                    <div class="p-5 md:p-7">
+                        <h3 class="text-lg md:text-xl font-bold mb-2 md:mb-3">Boulangerie Artisanale</h3>
+                        <p class="text-sm md:text-base text-gray-600">Pains frais, baguettes croustillantes, viennoiseries et spécialités locales chaque matin.</p>
+                        <a href="https://wa.me/2290161670843?text=Je%20souhaite%20commander%20du%20pain" class="mt-4 md:mt-5 text-sm md:text-base text-orange-600 font-semibold inline-flex items-center gap-1.5 md:gap-2 hover:gap-2.5 md:hover:gap-3 transition-all">
+                            Commander maintenant <span class="text-base md:text-lg">→</span>
                         </a>
                     </div>
                 </div>
 
                 <!-- Carte 2 -->
                 <div class="card-hover bg-white rounded-2xl overflow-hidden shadow-md group">
-                    <div class="h-64 overflow-hidden">
+                    <div class="h-48 md:h-64 overflow-hidden">
                         <img src="patisserie.jpeg" alt="Pâtisserie Fine ETS CHEZ ELLE - Gâteaux personnalisés et entremets créatifs au Bénin" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     </div>
-                    <div class="p-7">
-                        <h3 class="text-xl font-bold mb-3">Pâtisserie Fine</h3>
-                        <p class="text-base text-gray-600">Gâteaux sur mesure, entremets, macarons et créations uniques pour vos moments précieux.</p>
-                        <a href="https://wa.me/2290161670843?text=Je%20veux%20un%20gâteau%20sur%20mesure" class="mt-5 text-base text-orange-600 font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all">
-                            Créer mon gâteau <span class="text-lg">→</span>
+                    <div class="p-5 md:p-7">
+                        <h3 class="text-lg md:text-xl font-bold mb-2 md:mb-3">Pâtisserie Fine</h3>
+                        <p class="text-sm md:text-base text-gray-600">Gâteaux sur mesure, entremets, macarons et créations uniques pour vos moments précieux.</p>
+                        <a href="https://wa.me/2290161670843?text=Je%20veux%20un%20gâteau%20sur%20mesure" class="mt-4 md:mt-5 text-sm md:text-base text-orange-600 font-semibold inline-flex items-center gap-1.5 md:gap-2 hover:gap-2.5 md:hover:gap-3 transition-all">
+                            Créer mon gâteau <span class="text-base md:text-lg">→</span>
                         </a>
                     </div>
                 </div>
 
                 <!-- Carte 3 -->
                 <div class="card-hover bg-white rounded-2xl overflow-hidden shadow-md group">
-                    <div class="h-64 overflow-hidden">
+                    <div class="h-48 md:h-64 overflow-hidden">
                         <img src="restauration.jpeg" alt="Service Traiteur & Restauration ETS CHEZ ELLE - Plats raffinés et buffets événementiels" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     </div>
-                    <div class="p-7">
-                        <h3 class="text-xl font-bold mb-3">Restauration & Traiteur</h3>
-                        <p class="text-base text-gray-600">Buffets, cocktails, mariages, séminaires et événements avec une touche d'exception.</p>
-                        <a href="https://wa.me/2290161670843?text=Demande%20de%20devis%20traiteur" class="mt-5 text-base text-orange-600 font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all">
-                            Demander un devis <span class="text-lg">→</span>
+                    <div class="p-5 md:p-7">
+                        <h3 class="text-lg md:text-xl font-bold mb-2 md:mb-3">Restauration & Traiteur</h3>
+                        <p class="text-sm md:text-base text-gray-600">Buffets, cocktails, mariages, séminaires et événements avec une touche d'exception.</p>
+                        <a href="https://wa.me/2290161670843?text=Demande%20de%20devis%20traiteur" class="mt-4 md:mt-5 text-sm md:text-base text-orange-600 font-semibold inline-flex items-center gap-1.5 md:gap-2 hover:gap-2.5 md:hover:gap-3 transition-all">
+                            Demander un devis <span class="text-base md:text-lg">→</span>
                         </a>
                     </div>
                 </div>
 
                 <!-- Carte 4 -->
                 <div class="card-hover bg-white rounded-2xl overflow-hidden shadow-md group">
-                    <div class="h-64 overflow-hidden">
+                    <div class="h-48 md:h-64 overflow-hidden">
                         <img src="services (2).jpeg" alt="Service complet d'organisation de réceptions et livraison de buffet avec personnel" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     </div>
-                    <div class="p-7">
-                        <h3 class="text-xl font-bold mb-3">Service Complet</h3>
-                        <p class="text-base text-gray-600">Livraison + personnel qualifié pour vos plus belles célébrations.</p>
-                        <a href="#contact" class="mt-5 text-base text-orange-600 font-semibold inline-flex items-center gap-2 hover:gap-3 transition-all">
-                            Réserver ma date <span class="text-lg">→</span>
+                    <div class="p-5 md:p-7">
+                        <h3 class="text-lg md:text-xl font-bold mb-2 md:mb-3">Service Complet</h3>
+                        <p class="text-sm md:text-base text-gray-600">Livraison + personnel qualifié pour vos plus belles célébrations.</p>
+                        <a href="#contact" class="mt-4 md:mt-5 text-sm md:text-base text-orange-600 font-semibold inline-flex items-center gap-1.5 md:gap-2 hover:gap-2.5 md:hover:gap-3 transition-all">
+                            Réserver ma date <span class="text-base md:text-lg">→</span>
                         </a>
                     </div>
                 </div>
@@ -404,53 +404,53 @@
     </section>
 
     <!-- FORMATIONS -->
-    <section id="formations" class="py-24 bg-gray-900 text-white">
-        <div class="max-w-7xl mx-auto px-8">
-            <div class="grid md:grid-cols-12 gap-12 items-center">
+    <section id="formations" class="py-16 md:py-24 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-8">
+            <div class="grid md:grid-cols-12 gap-10 md:gap-12 items-center">
                 <div class="md:col-span-6">
-                    <span class="text-orange-500 font-semibold text-sm">DEVENEZ PROFESSIONNEL</span>
-                    <h2 class="heading-font text-4xl font-bold mt-4">Nos Formations Certifiantes</h2>
-                    <p class="mt-6 text-base text-gray-300">Des programmes pratiques et intensifs pour maîtriser l'art de la pâtisserie, de la boulangerie et de la cuisine.</p>
+                    <span class="text-orange-500 font-semibold text-xs md:text-sm">DEVENEZ PROFESSIONNEL</span>
+                    <h2 class="heading-font text-3xl md:text-4xl font-bold mt-3 md:mt-4">Nos Formations Certifiantes</h2>
+                    <p class="mt-4 md:mt-6 text-sm md:text-base text-gray-300">Des programmes pratiques et intensifs pour maîtriser l'art de la pâtisserie, de la boulangerie et de la cuisine.</p>
                     
-                    <div class="mt-10 space-y-8">
-                        <div class="flex gap-5">
-                            <i class="fa-solid fa-check-circle text-3xl text-orange-500 mt-1"></i>
+                    <div class="mt-8 md:mt-10 space-y-6 md:space-y-8">
+                        <div class="flex gap-4 md:gap-5">
+                            <i class="fa-solid fa-check-circle text-2xl md:text-3xl text-orange-500 mt-1"></i>
                             <div>
-                                <h4 class="text-xl font-bold">Pâtissier Professionnel</h4>
-                                <p class="text-base text-gray-400">Techniques françaises et créations locales</p>
+                                <h4 class="text-lg md:text-xl font-bold">Pâtissier Professionnel</h4>
+                                <p class="text-sm md:text-base text-gray-400">Techniques françaises et créations locales</p>
                             </div>
                         </div>
-                        <div class="flex gap-5">
-                            <i class="fa-solid fa-check-circle text-3xl text-orange-500 mt-1"></i>
+                        <div class="flex gap-4 md:gap-5">
+                            <i class="fa-solid fa-check-circle text-2xl md:text-3xl text-orange-500 mt-1"></i>
                             <div>
-                                <h4 class="text-xl font-bold">Boulanger Artisan</h4>
-                                <p class="text-base text-gray-400">Pain traditionnel et viennoiseries</p>
+                                <h4 class="text-lg md:text-xl font-bold">Boulanger Artisan</h4>
+                                <p class="text-sm md:text-base text-gray-400">Pain traditionnel et viennoiseries</p>
                             </div>
                         </div>
-                        <div class="flex gap-5">
-                            <i class="fa-solid fa-check-circle text-3xl text-orange-500 mt-1"></i>
+                        <div class="flex gap-4 md:gap-5">
+                            <i class="fa-solid fa-check-circle text-2xl md:text-3xl text-orange-500 mt-1"></i>
                             <div>
-                                <h4 class="text-xl font-bold">Cuisinier Polyvalent</h4>
-                                <p class="text-base text-gray-400">Cuisine béninoise & internationale</p>
+                                <h4 class="text-lg md:text-xl font-bold">Cuisinier Polyvalent</h4>
+                                <p class="text-sm md:text-base text-gray-400">Cuisine béninoise & internationale</p>
                             </div>
                         </div>
                     </div>
 
                     <a href="https://wa.me/2290161670843?text=Je%20souhaite%20m%27inscrire%20à%20une%20formation" 
                        target="_blank"
-                       class="mt-10 inline-flex items-center gap-3 bg-orange-600 hover:bg-orange-700 text-white text-base font-semibold py-4 px-8 rounded-2xl transition-all">
+                       class="mt-8 md:mt-10 inline-flex items-center gap-2.5 md:gap-3 bg-orange-600 hover:bg-orange-700 text-white text-sm md:text-base font-semibold py-3 md:py-4 px-6 md:px-8 rounded-2xl transition-all">
                         <i class="fa-solid fa-graduation-cap"></i>
                         Je veux m'inscrire
                     </a>
                 </div>
                 
-                <div class="md:col-span-6 bg-white/10 backdrop-blur-2xl rounded-2xl p-10 border border-white/10">
-                    <p class="text-2xl italic leading-relaxed">"La formation Chez Elle a changé ma vie. Aujourd'hui je suis fière propriétaire de ma pâtisserie à Cotonou."</p>
-                    <div class="mt-8 flex items-center gap-5">
-                        <div class="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center text-2xl">👩‍🍳</div>
+                <div class="md:col-span-6 bg-white/10 backdrop-blur-2xl rounded-2xl p-8 md:p-10 border border-white/10">
+                    <p class="text-xl md:text-2xl italic leading-relaxed">"La formation Chez Elle a changé ma vie. Aujourd'hui je suis fière propriétaire de ma pâtisserie à Cotonou."</p>
+                    <div class="mt-6 md:mt-8 flex items-center gap-4 md:gap-5">
+                        <div class="w-10 h-10 md:w-12 md:h-12 bg-orange-500 rounded-xl flex items-center justify-center text-xl md:text-2xl">👩‍🍳</div>
                         <div>
-                            <p class="font-semibold text-base">Marie A.</p>
-                            <p class="text-orange-400 text-sm">Ancienne élève – Cotonou</p>
+                            <p class="font-semibold text-sm md:text-base">Marie A.</p>
+                            <p class="text-orange-400 text-xs md:text-sm">Ancienne élève – Cotonou</p>
                         </div>
                     </div>
                 </div>
@@ -459,67 +459,67 @@
     </section>
 
     <!-- BOUTIQUES -->
-    <section id="boutiques" class="py-24 bg-orange-50">
-        <div class="max-w-7xl mx-auto px-8 text-center">
-            <h2 class="heading-font text-4xl font-bold text-gray-900">Nos Points de Vente</h2>
-            <div class="grid md:grid-cols-3 gap-8 mt-10">
-                <div class="bg-white rounded-2xl p-8 shadow-sm">
-                    <h4 class="text-xl font-bold">Cotonou - Avotrou</h4>
-                    <p class="text-base text-gray-500 mt-2">Siège social et boutique principale</p>
-                    <p class="mt-5 text-base text-orange-600 font-semibold">Ouvert 7j/7</p>
+    <section id="boutiques" class="py-16 md:py-24 bg-orange-50">
+        <div class="max-w-7xl mx-auto px-6 md:px-8 text-center">
+            <h2 class="heading-font text-3xl md:text-4xl font-bold text-gray-900">Nos Points de Vente</h2>
+            <div class="grid md:grid-cols-3 gap-6 md:gap-8 mt-8 md:mt-10">
+                <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
+                    <h4 class="text-lg md:text-xl font-bold">Cotonou - Avotrou</h4>
+                    <p class="text-sm md:text-base text-gray-500 mt-1 md:mt-2">Siège social et boutique principale</p>
+                    <p class="mt-4 md:mt-5 text-sm md:text-base text-orange-600 font-semibold">Ouvert 7j/7</p>
                 </div>
-                <div class="bg-white rounded-2xl p-8 shadow-sm">
-                    <h4 class="text-xl font-bold">Livraison</h4>
-                    <p class="text-base text-gray-500 mt-2">Cotonou, Porto-Novo, Abomey-Calavi et environs</p>
-                    <p class="mt-5 text-base text-orange-600 font-semibold">Service rapide</p>
+                <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
+                    <h4 class="text-lg md:text-xl font-bold">Livraison</h4>
+                    <p class="text-sm md:text-base text-gray-500 mt-1 md:mt-2">Cotonou, Porto-Novo, Abomey-Calavi et environs</p>
+                    <p class="mt-4 md:mt-5 text-sm md:text-base text-orange-600 font-semibold">Service rapide</p>
                 </div>
-                <div class="bg-white rounded-2xl p-8 shadow-sm">
-                    <h4 class="text-xl font-bold">Événements</h4>
-                    <p class="text-base text-gray-500 mt-2">Partout au Bénin sur demande</p>
-                    <p class="mt-5 text-base text-orange-600 font-semibold">Traiteur sur site</p>
+                <div class="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
+                    <h4 class="text-lg md:text-xl font-bold">Événements</h4>
+                    <p class="text-sm md:text-base text-gray-500 mt-1 md:mt-2">Partout au Bénin sur demande</p>
+                    <p class="mt-4 md:mt-5 text-sm md:text-base text-orange-600 font-semibold">Traiteur sur site</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-8">
-            <div class="grid md:grid-cols-12 gap-12">
+    <section id="contact" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-8">
+            <div class="grid md:grid-cols-12 gap-10 md:gap-12">
                 <div class="md:col-span-5">
-                    <h2 class="heading-font text-4xl font-bold text-gray-900">Prêts à savourer l'excellence ?</h2>
-                    <p class="mt-6 text-base text-gray-600">Commandes • Devis traiteur • Inscriptions en formation • Renseignements</p>
+                    <h2 class="heading-font text-3xl md:text-4xl font-bold text-gray-900">Prêts à savourer l'excellence ?</h2>
+                    <p class="mt-4 md:mt-6 text-sm md:text-base text-gray-600">Commandes • Devis traiteur • Inscriptions en formation • Renseignements</p>
                     
-                    <div class="mt-10 space-y-8">
-                        <div class="flex gap-5 items-center">
-                            <i class="fa-solid fa-phone text-3xl text-orange-600"></i>
+                    <div class="mt-8 md:mt-10 space-y-6 md:space-y-8">
+                        <div class="flex gap-4 md:gap-5 items-center">
+                            <i class="fa-solid fa-phone text-2xl md:text-3xl text-orange-600"></i>
                             <div>
-                                <p class="text-xl font-bold text-gray-800">+229 01 61 67 08 43</p>
-                                <p class="text-xl font-bold text-gray-800">+229 01 96 29 34 00</p>
+                                <p class="text-lg md:text-xl font-bold text-gray-800">+229 01 61 67 08 43</p>
+                                <p class="text-lg md:text-xl font-bold text-gray-800">+229 01 96 29 34 00</p>
                             </div>
                         </div>
                         
-                        <a href="https://wa.me/2290161670843" target="_blank" class="inline-flex items-center gap-5 text-green-600 hover:text-green-700 transition-colors">
-                            <i class="fa-brands fa-whatsapp text-4xl"></i>
+                        <a href="https://wa.me/2290161670843" target="_blank" class="inline-flex items-center gap-4 md:gap-5 text-green-600 hover:text-green-700 transition-colors">
+                            <i class="fa-brands fa-whatsapp text-3xl md:text-4xl"></i>
                             <div>
-                                <p class="text-lg font-bold">Nous écrire sur WhatsApp</p>
-                                <p class="text-sm text-gray-500">Réponse rapide garantie</p>
+                                <p class="text-base md:text-lg font-bold">Nous écrire sur WhatsApp</p>
+                                <p class="text-xs md:text-sm text-gray-500">Réponse rapide garantie</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 
-                <div class="md:col-span-7 bg-orange-50 rounded-2xl p-8">
-                    <form action="https://wa.me/2290161670843" method="POST" class="space-y-5">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <input type="text" placeholder="Nom complet" required class="bg-white border border-gray-200 rounded-xl py-4 px-6 text-base focus:outline-none focus:border-orange-500 transition-colors">
-                            <input type="tel" placeholder="Téléphone / WhatsApp" required class="bg-white border border-gray-200 rounded-xl py-4 px-6 text-base focus:outline-none focus:border-orange-500 transition-colors">
+                <div class="md:col-span-7 bg-orange-50 rounded-2xl p-6 md:p-8">
+                    <form action="https://wa.me/2290161670843" method="POST" class="space-y-4 md:space-y-5">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
+                            <input type="text" placeholder="Nom complet" required class="bg-white border border-gray-200 rounded-xl py-3 md:py-4 px-5 md:px-6 text-sm md:text-base focus:outline-none focus:border-orange-500 transition-colors">
+                            <input type="tel" placeholder="Téléphone / WhatsApp" required class="bg-white border border-gray-200 rounded-xl py-3 md:py-4 px-5 md:px-6 text-sm md:text-base focus:outline-none focus:border-orange-500 transition-colors">
                         </div>
-                        <input type="text" placeholder="Sujet (Commande, Traiteur, Formation...)" required class="bg-white border border-gray-200 rounded-xl py-4 px-6 text-base w-full focus:outline-none focus:border-orange-500 transition-colors">
-                        <textarea placeholder="Décrivez votre demande..." rows="5" required class="bg-white border border-gray-200 rounded-xl py-4 px-6 text-base w-full focus:outline-none focus:border-orange-500 transition-colors"></textarea>
+                        <input type="text" placeholder="Sujet (Commande, Traiteur, Formation...)" required class="bg-white border border-gray-200 rounded-xl py-3 md:py-4 px-5 md:px-6 text-sm md:text-base w-full focus:outline-none focus:border-orange-500 transition-colors">
+                        <textarea placeholder="Décrivez votre demande..." rows="4" md:rows="5" required class="bg-white border border-gray-200 rounded-xl py-3 md:py-4 px-5 md:px-6 text-sm md:text-base w-full focus:outline-none focus:border-orange-500 transition-colors"></textarea>
                         
                         <button type="submit" 
-                                class="w-full py-4 bg-orange-600 hover:bg-orange-700 text-white text-base font-semibold rounded-xl flex items-center justify-center gap-2.5 transition-all">
+                                class="w-full py-3.5 md:py-4 bg-orange-600 hover:bg-orange-700 text-white text-sm md:text-base font-semibold rounded-xl flex items-center justify-center gap-2 md:gap-2.5 transition-all">
                             ENVOYER MA DEMANDE
                             <i class="fa-solid fa-paper-plane"></i>
                         </button>
@@ -530,19 +530,19 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-gray-900 text-white py-16">
-        <div class="max-w-7xl mx-auto px-8 grid md:grid-cols-4 gap-10">
+    <footer class="bg-gray-900 text-white py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-6 md:px-8 grid md:grid-cols-4 gap-8 md:gap-10">
             <div>
-                <div class="flex items-center gap-4">
-                    <div class="w-12 h-12 bg-orange-600 rounded-xl flex items-center justify-center text-3xl">🥐</div>
-                    <h2 class="heading-font text-2xl font-bold">ETS CHEZ ELLE</h2>
+                <div class="flex items-center gap-3 md:gap-4">
+                    <div class="w-10 h-10 md:w-12 md:h-12 bg-orange-600 rounded-xl flex items-center justify-center text-2xl md:text-3xl">🥐</div>
+                    <h2 class="heading-font text-xl md:text-2xl font-bold">ETS CHEZ ELLE</h2>
                 </div>
-                <p class="mt-6 text-base text-gray-400">Le goût authentique et l'excellence au service de vos papilles.</p>
+                <p class="mt-4 md:mt-6 text-sm md:text-base text-gray-400">Le goût authentique et l'excellence au service de vos papilles.</p>
             </div>
             
             <div>
-                <h5 class="font-semibold text-orange-400 mb-5 text-base">Navigation</h5>
-                <ul class="space-y-3 text-base text-gray-400">
+                <h5 class="font-semibold text-orange-400 mb-4 md:mb-5 text-sm md:text-base">Navigation</h5>
+                <ul class="space-y-2 md:space-y-3 text-sm md:text-base text-gray-400">
                     <li><a href="#services" class="hover:text-white transition-colors">Nos Services</a></li>
                     <li><a href="#formations" class="hover:text-white transition-colors">Formations</a></li>
                     <li><a href="#boutiques" class="hover:text-white transition-colors">Boutiques & Livraison</a></li>
@@ -550,14 +550,14 @@
             </div>
             
             <div>
-                <h5 class="font-semibold text-orange-400 mb-5 text-base">Contact</h5>
-                <p class="text-base text-gray-400">+229 01 61 67 08 43</p>
-                <p class="text-base text-gray-400">+229 01 96 29 34 00</p>
+                <h5 class="font-semibold text-orange-400 mb-4 md:mb-5 text-sm md:text-base">Contact</h5>
+                <p class="text-sm md:text-base text-gray-400">+229 01 61 67 08 43</p>
+                <p class="text-sm md:text-base text-gray-400">+229 01 96 29 34 00</p>
             </div>
             
             <div>
-                <p class="text-gray-400 text-sm">© 2026 ETS CHEZ ELLE - Tous droits réservés</p>
-                <div class="flex gap-5 mt-8 text-2xl">
+                <p class="text-gray-400 text-xs md:text-sm">© 2026 ETS CHEZ ELLE - Tous droits réservés</p>
+                <div class="flex gap-4 md:gap-5 mt-6 md:mt-8 text-xl md:text-2xl">
                     <a href="#" class="hover:text-orange-500 transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://wa.me/2290161670843" class="hover:text-green-500 transition-colors"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
